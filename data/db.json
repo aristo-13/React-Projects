@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "text": "GHANA"
+    },
+    {
+      "id": 2,
+      "text": "INDIA"
+    },
+    {
+      "id": 3,
+      "text": "RUSSIA"
+    },
+    {
+      "id": 4,
+      "text": "USA"
+    },
+    {
+      "id": 5,
+      "text": "NIGERIA"
+    },
+    {
+      "id": 6,
+      "text": "QATAR"
+    },
+    {
+      "id": 7,
+      "text": "UK"
+    },
+    {
+      "id": 8,
+      "text": "SPAIN"
+    },
+    {
+      "id": 9,
+      "text": "FRANCE"
+    },
+    {
+      "id": 10,
+      "text": "TOGO"
+    },
+    {
+      "id": 11,
+      "text": "CHINA"
+    }
+  ]
+}

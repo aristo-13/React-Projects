@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  background-color: rgb(0, 0, 8);
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+.App{
+  min-width: 500px;
+  height: 100%;
+  border: solid 1px royalblue;
+  border-radius: 20px;
+  overflow: auto;
+  color: whitesmoke;
+  
+}
+header{
+  width: 100%;
+  display: flex;
+  background-color: rgb(0, 0, 8);
+  align-items: center;
+  padding: 1.5rem;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+form{
+  position: relative;
+  width: 90%;
+  display: flex;
+  overflow: hidden;
+  margin: 10px auto;
+}
+.post-input{
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  outline: none;
+  caret-color: rgb(0, 0, 8);
+  border: solid 1px royalblue;
+  border-radius: 10px;
+}
+.send{
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.send:hover{
+  color: royalblue;
+}
+.send:active{
+  scale: 0.96;
+}
+.posts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.post{
+  width: 90%;
+  margin: 7px auto;
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px royalblue;
+  padding: 1rem;
+}
+.controlbtn{
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+.controlbtn svg:nth-child(1):hover{
+  color: green;
+  cursor: pointer;
+}
+.controlbtn svg:nth-child(2):hover{
+  color: red;
+  cursor: pointer;
+}
+.loading{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 100px;
+  color: royalblue;
+}
