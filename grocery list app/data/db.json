@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "item": "cookies",
+      "id": 1,
+      "checked": false
+    },
+    {
+      "item": "bread",
+      "id": 2,
+      "checked": false
+    },
+    {
+      "item": "milk",
+      "id": 3,
+      "checked": false
+    },
+    {
+      "item": "milo",
+      "id": 4,
+      "checked": false
+    },
+    {
+      "item": "GHANA",
+      "id": 5,
+      "checked": false
+    }
+  ]
+}
